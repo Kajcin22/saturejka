@@ -7,21 +7,23 @@ html {
 
 body {
   background-color: rgb(241, 210, 216);
+  display: flex;
+  padding: 50px;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
-  display: flex;
-  align-items: center;
 }
 
 .img-home {
-  max-width: 200px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .nabidka {
   background-color: white;
+  display: flex;
+  justify-content: center;
 }
