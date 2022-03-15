@@ -5,7 +5,23 @@ html {
   font-size: 15px;
 }
 
+body {
+  background-color: rgb(241, 210, 216);
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items: center;
+}
+
+.img-home {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nabidka {
+  background-color: white;
 }
