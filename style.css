@@ -18,13 +18,25 @@ h2 {
   font-family: 'Playfair Display', serif;
 }
 
+img {
+  width: 30%;
+  max-width: auto;
+}
+
 .nabidka {
   text-align: center;
   background-color: white;
+  object-fit: scale-down;
   display: flex;
   flex-direction: column;
 }
 
 .nabidka__img {
+  display: block;
+}
+
+.nabidka__description {
   display: flex;
+  flex-direction: row;
+  padding: 30px;
 }
