@@ -19,8 +19,10 @@ h2 {
 }
 
 img {
-  width: 30%;
+  min-width: 230px;
+  width: 25%;
   max-width: auto;
+  padding: 15px;
 }
 
 .nabidka {
@@ -33,10 +35,14 @@ img {
 
 .nabidka__img {
   display: block;
+  padding: 15px;
 }
 
 .nabidka__description {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+}
+
+.nabidka__menu {
+  display: flex;
 }
