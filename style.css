@@ -7,42 +7,56 @@ html {
 
 body {
   background-color: rgb(241, 210, 216);
-  padding: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
+button {
+  background-color: rgb(241, 210, 216);
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
 
-img {
-  min-width: 230px;
-  width: 25%;
-  max-width: auto;
-  padding: 15px;
+p {
+  padding: 3rem;
 }
 
 .nabidka {
   text-align: center;
   background-color: white;
-  object-fit: scale-down;
   display: flex;
   flex-direction: column;
+  max-width: 75%;
+}
+
+.nabidka img {
+  min-width: 150px;
+  width: 25%;
+  max-width: auto;
+  padding: 1rem;
 }
 
 .nabidka__img {
   display: block;
-  padding: 15px;
 }
 
 .nabidka__description {
   display: flex;
   flex-direction: row;
+  text-align: justify;
 }
 
 .nabidka__menu {
   display: flex;
+  justify-content: baseline;
+}
+
+.nabidka__menu img {
+  min-width: 230px;
+  width: 25%;
+  max-width: auto;
 }
